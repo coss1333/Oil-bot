@@ -1,0 +1,13 @@
+Инструкция по запуску oil_bot:
+
+1. Установите Python 3.10+
+2. Распакуйте архив.
+3. В каталоге создайте файл .env и вставьте ваш TELEGRAM_TOKEN (пример в .env.example)
+4. Установите зависимости:
+   python -m venv venv
+   venv\Scripts\activate (Windows) или source venv/bin/activate (Linux/Mac)
+   pip install -U pip
+   pip install -r requirements.txt
+5. Запуск:
+   python oil_bot.py
+6. В Telegram напишите вашему боту команду /oil или /neft.
